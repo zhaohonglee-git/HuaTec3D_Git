@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 2537504985
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: linechart.bytes
+      Dependencies: {}
+    Info_1:
+      Name: m01canvas.bytes
+      Dependencies: {}
+    Info_2:
+      Name: alldevices.devices
+      Dependencies: {}

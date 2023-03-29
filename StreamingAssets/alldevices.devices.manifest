@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 4123207743
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9573d080c05bc460efe09f07c7b419b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6b09160bb2f674f2bbb4267b15f25974
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e0164ba6dfd9afa498bbd8ebf4785b2a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/prefabs/AllDevices.prefab
+Dependencies: []

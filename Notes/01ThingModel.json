@@ -1,0 +1,747 @@
+{
+  "schema": "https://iotx-tsl.oss-ap-southeast-1.aliyuncs.com/schema.json",
+  "profile": {
+    "version": "1.0",
+    "productKey": "gwu1sCsRwNy"
+  },
+  "properties": [
+    {
+      "identifier": "CurrnetTemperature_02",
+      "name": "室内温度_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "-40",
+          "max": "55",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "CurrentTemperature_03",
+      "name": "室内温度_03",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "-40",
+          "max": "55",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "CurrentTemperature_01",
+      "name": "室内温度_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "-40",
+          "max": "55",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "CurrentTemperature_04",
+      "name": "室内温度_04",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "-40",
+          "max": "55",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "CurrentHumidity_01",
+      "name": "室内湿度_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "100",
+          "unit": "%",
+          "unitName": "百分比",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "CurrentHumidity_02",
+      "name": "室内湿度_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "100",
+          "unit": "%",
+          "unitName": "百分比",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "CurrentHumidity_03",
+      "name": "室内湿度_03",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "100",
+          "unit": "%",
+          "unitName": "百分比",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "CurrentHumidity_04",
+      "name": "室内湿度_04",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "100",
+          "unit": "%",
+          "unitName": "百分比",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "PM10_01",
+      "name": "PM10浓度_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "2000",
+          "unit": "μg/m³",
+          "unitName": "微克每立方米",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "PM10_02",
+      "name": "PM10浓度_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "2000",
+          "unit": "μg/m³",
+          "unitName": "微克每立方米",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "CO2_01",
+      "name": "CO2浓度_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "2000",
+          "unit": "ppm",
+          "unitName": "百万分率",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "CO2_02",
+      "name": "CO2浓度_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "2000",
+          "unit": "ppm",
+          "unitName": "百万分率",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "WaterSensorState_01",
+      "name": "水浸检测状态_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "正常",
+          "1": "有水浸入"
+        }
+      }
+    },
+    {
+      "identifier": "WaterSensorState_02",
+      "name": "水浸检测状态_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "正常",
+          "1": "有水浸入"
+        }
+      }
+    },
+    {
+      "identifier": "Noice_01",
+      "name": "噪声_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "float",
+        "specs": {
+          "min": "30",
+          "max": "130",
+          "unit": "dB",
+          "unitName": "分贝",
+          "step": "0.1"
+        }
+      }
+    },
+    {
+      "identifier": "Noice_02",
+      "name": "噪声_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "float",
+        "specs": {
+          "min": "30",
+          "max": "130",
+          "unit": "dB",
+          "unitName": "分贝",
+          "step": "0.1"
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "identifier": "post",
+      "name": "post",
+      "type": "info",
+      "required": true,
+      "desc": "属性上报",
+      "method": "thing.event.property.post",
+      "outputData": [
+        {
+          "identifier": "CurrnetTemperature_02",
+          "name": "室内温度_02",
+          "dataType": {
+            "type": "double",
+            "specs": {
+              "min": "-40",
+              "max": "55",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.01"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentTemperature_03",
+          "name": "室内温度_03",
+          "dataType": {
+            "type": "double",
+            "specs": {
+              "min": "-40",
+              "max": "55",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.01"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentTemperature_01",
+          "name": "室内温度_01",
+          "dataType": {
+            "type": "double",
+            "specs": {
+              "min": "-40",
+              "max": "55",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.01"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentTemperature_04",
+          "name": "室内温度_04",
+          "dataType": {
+            "type": "double",
+            "specs": {
+              "min": "-40",
+              "max": "55",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.01"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentHumidity_01",
+          "name": "室内湿度_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentHumidity_02",
+          "name": "室内湿度_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentHumidity_03",
+          "name": "室内湿度_03",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentHumidity_04",
+          "name": "室内湿度_04",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "PM10_01",
+          "name": "PM10浓度_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "2000",
+              "unit": "μg/m³",
+              "unitName": "微克每立方米",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "PM10_02",
+          "name": "PM10浓度_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "2000",
+              "unit": "μg/m³",
+              "unitName": "微克每立方米",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CO2_01",
+          "name": "CO2浓度_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "2000",
+              "unit": "ppm",
+              "unitName": "百万分率",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CO2_02",
+          "name": "CO2浓度_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "2000",
+              "unit": "ppm",
+              "unitName": "百万分率",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "WaterSensorState_01",
+          "name": "水浸检测状态_01",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "正常",
+              "1": "有水浸入"
+            }
+          }
+        },
+        {
+          "identifier": "WaterSensorState_02",
+          "name": "水浸检测状态_02",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "正常",
+              "1": "有水浸入"
+            }
+          }
+        },
+        {
+          "identifier": "Noice_01",
+          "name": "噪声_01",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "30",
+              "max": "130",
+              "unit": "dB",
+              "unitName": "分贝",
+              "step": "0.1"
+            }
+          }
+        },
+        {
+          "identifier": "Noice_02",
+          "name": "噪声_02",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "30",
+              "max": "130",
+              "unit": "dB",
+              "unitName": "分贝",
+              "step": "0.1"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "identifier": "set",
+      "name": "set",
+      "required": true,
+      "callType": "async",
+      "desc": "属性设置",
+      "method": "thing.service.property.set",
+      "inputData": [],
+      "outputData": []
+    },
+    {
+      "identifier": "get",
+      "name": "get",
+      "required": true,
+      "callType": "async",
+      "desc": "属性获取",
+      "method": "thing.service.property.get",
+      "inputData": [
+        "CurrnetTemperature_02",
+        "CurrentTemperature_03",
+        "CurrentTemperature_01",
+        "CurrentTemperature_04",
+        "CurrentHumidity_01",
+        "CurrentHumidity_02",
+        "CurrentHumidity_03",
+        "CurrentHumidity_04",
+        "PM10_01",
+        "PM10_02",
+        "CO2_01",
+        "CO2_02",
+        "WaterSensorState_01",
+        "WaterSensorState_02",
+        "Noice_01",
+        "Noice_02"
+      ],
+      "outputData": [
+        {
+          "identifier": "CurrnetTemperature_02",
+          "name": "室内温度_02",
+          "dataType": {
+            "type": "double",
+            "specs": {
+              "min": "-40",
+              "max": "55",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.01"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentTemperature_03",
+          "name": "室内温度_03",
+          "dataType": {
+            "type": "double",
+            "specs": {
+              "min": "-40",
+              "max": "55",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.01"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentTemperature_01",
+          "name": "室内温度_01",
+          "dataType": {
+            "type": "double",
+            "specs": {
+              "min": "-40",
+              "max": "55",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.01"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentTemperature_04",
+          "name": "室内温度_04",
+          "dataType": {
+            "type": "double",
+            "specs": {
+              "min": "-40",
+              "max": "55",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.01"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentHumidity_01",
+          "name": "室内湿度_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentHumidity_02",
+          "name": "室内湿度_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentHumidity_03",
+          "name": "室内湿度_03",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CurrentHumidity_04",
+          "name": "室内湿度_04",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "PM10_01",
+          "name": "PM10浓度_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "2000",
+              "unit": "μg/m³",
+              "unitName": "微克每立方米",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "PM10_02",
+          "name": "PM10浓度_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "2000",
+              "unit": "μg/m³",
+              "unitName": "微克每立方米",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CO2_01",
+          "name": "CO2浓度_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "2000",
+              "unit": "ppm",
+              "unitName": "百万分率",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "CO2_02",
+          "name": "CO2浓度_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "2000",
+              "unit": "ppm",
+              "unitName": "百万分率",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "WaterSensorState_01",
+          "name": "水浸检测状态_01",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "正常",
+              "1": "有水浸入"
+            }
+          }
+        },
+        {
+          "identifier": "WaterSensorState_02",
+          "name": "水浸检测状态_02",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "正常",
+              "1": "有水浸入"
+            }
+          }
+        },
+        {
+          "identifier": "Noice_01",
+          "name": "噪声_01",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "30",
+              "max": "130",
+              "unit": "dB",
+              "unitName": "分贝",
+              "step": "0.1"
+            }
+          }
+        },
+        {
+          "identifier": "Noice_02",
+          "name": "噪声_02",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "30",
+              "max": "130",
+              "unit": "dB",
+              "unitName": "分贝",
+              "step": "0.1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

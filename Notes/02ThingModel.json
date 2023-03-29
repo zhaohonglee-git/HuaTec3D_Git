@@ -1,0 +1,2686 @@
+{
+  "schema": "https://iotx-tsl.oss-ap-southeast-1.aliyuncs.com/schema.json",
+  "profile": {
+    "version": "1.0",
+    "productKey": "gwu1I0IoT7o"
+  },
+  "properties": [
+    {
+      "identifier": "LightLuxValue_01",
+      "name": "光照度_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "65535",
+          "unit": "Lux",
+          "unitName": "照度",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "LightLuxValue_02",
+      "name": "光照度_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "65535",
+          "unit": "Lux",
+          "unitName": "照度",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "LightLuxValue_03",
+      "name": "光照度_03",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "65535",
+          "unit": "Lux",
+          "unitName": "照度",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "LightLuxValue_04",
+      "name": "光照度_04",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "65535",
+          "unit": "Lux",
+          "unitName": "照度",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "LightSwitchSet_01",
+      "name": "照明开关设置_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "关闭",
+          "1": "开启"
+        }
+      }
+    },
+    {
+      "identifier": "LightSwitchSet_02",
+      "name": "照明开关设置_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "关闭",
+          "1": "开启"
+        }
+      }
+    },
+    {
+      "identifier": "LightSwitchSet_03",
+      "name": "照明开关设置_03",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "关闭",
+          "1": "开启"
+        }
+      }
+    },
+    {
+      "identifier": "LightSwitchSet_04",
+      "name": "照明开关设置_04",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "关闭",
+          "1": "开启"
+        }
+      }
+    },
+    {
+      "identifier": "LightState_01",
+      "name": "照明控制器状态反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "OFF",
+          "1": "ON"
+        }
+      }
+    },
+    {
+      "identifier": "LightState_02",
+      "name": "照明控制器状态反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "OFF",
+          "1": "ON"
+        }
+      }
+    },
+    {
+      "identifier": "LightState_03",
+      "name": "照明控制器状态反馈_03",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "OFF",
+          "1": "ON"
+        }
+      }
+    },
+    {
+      "identifier": "LightState_04",
+      "name": "照明控制器状态反馈_04",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "OFF",
+          "1": "ON"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerOperateControlSet_01",
+      "name": "空调启停设置_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "关闭",
+          "1": "启动",
+          "2": "休眠"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerOperateControlSet_02",
+      "name": "空调启停设置_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "关闭",
+          "1": "启动",
+          "2": "休眠"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerControlModelSet_01",
+      "name": "空调工作模式设置_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "制热",
+          "1": "制冷",
+          "2": "送风",
+          "3": "除湿"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerControlModelSet_02",
+      "name": "空调工作模式设置_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "制热",
+          "1": "制冷",
+          "2": "送风",
+          "3": "除湿"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerTemperatureSet_01",
+      "name": "空调温度设定_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "18",
+          "max": "30",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerTemperatureSet_02",
+      "name": "空调温度设定_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "18",
+          "max": "30",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerWorkingGradeSet_01",
+      "name": "空调工作强度设定_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "1": "1级",
+          "2": "2级",
+          "3": "3级",
+          "4": "4级",
+          "5": "5级"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerWorkingGradeSet_02",
+      "name": "空调工作强度设定_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "1": "1级",
+          "2": "2级",
+          "3": "3级",
+          "4": "4级",
+          "5": "5级"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerRunningState_01",
+      "name": "空调运行状态反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "停机",
+          "1": "运行中",
+          "2": "休眠",
+          "3": "离线",
+          "4": "故障"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerRunningState_02",
+      "name": "空调运行状态反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "停机",
+          "1": "运行中",
+          "2": "休眠",
+          "3": "离线",
+          "4": "故障"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerRunningModelState_01",
+      "name": "空调运行模式状态反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "制热模式",
+          "1": "制冷模式",
+          "2": "送风模式"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerRunningModelState_02",
+      "name": "空调运行模式状态反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "制热模式",
+          "1": "制冷模式",
+          "2": "送风模式"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerRunningGradeState_01",
+      "name": "空调运行强度反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "1": "工作强度1级",
+          "2": "工作强度2级",
+          "3": "工作强度3级",
+          "4": "工作强度4级",
+          "5": "工作强度5级"
+        }
+      }
+    },
+    {
+      "identifier": "AirConditionerRunningGradeState_02",
+      "name": "空调运行强度反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "1": "工作强度1级",
+          "2": "工作强度2级",
+          "3": "工作强度3级",
+          "4": "工作强度4级",
+          "5": "工作强度5级"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_OperationControlSet_01",
+      "name": "新风系统启动设置_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "关机",
+          "1": "启动",
+          "2": "休眠"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_OperationControlSet_02",
+      "name": "新风系统启动设置_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "关机",
+          "1": "启动",
+          "2": "休眠"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_ControlModelSet_01",
+      "name": "新风系统工做模式设置_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "制热",
+          "1": "制冷",
+          "2": "过滤"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_ControlModelSet_02",
+      "name": "新风系统工作模式设置_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "制热",
+          "1": "制冷",
+          "2": "过滤"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_TemperatureSet_01",
+      "name": "新风系统送风温度设定_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "float",
+        "specs": {
+          "min": "18",
+          "max": "30",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "0.1"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_TemperatureSet_02",
+      "name": "新风系统送风温度设定_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "float",
+        "specs": {
+          "min": "18",
+          "max": "30",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "0.1"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_WorkingGrade_01",
+      "name": "新风系统工作强度设置_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "1": "Low",
+          "2": "Medium",
+          "3": "High"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_WorkingGrade_02",
+      "name": "新风系统工作强度设定_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "1": "Low",
+          "2": "Medium",
+          "3": "High"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_RunningState_01",
+      "name": "新风系统运行状态反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "停机",
+          "1": "运行中",
+          "2": "休眠",
+          "3": "离线",
+          "4": "故障"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_RunningState_02",
+      "name": "新风系统运行状态反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "停机",
+          "1": "运行中",
+          "2": "休眠",
+          "3": "离线",
+          "4": "故障"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_RuningModelState_01",
+      "name": "新风系统运行模式状态反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "制热模式",
+          "1": "制冷模式",
+          "2": "过滤模式"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_RuningModelState_02",
+      "name": "新风系统运行模式状态反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "制热模式",
+          "1": "制冷模式",
+          "2": "过滤模式"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_RuningGradelState_01",
+      "name": "新风系统运行强度状态反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "1": "工作强度Low",
+          "2": "工作强度Medium",
+          "3": "工作强度High"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_RuningGradelState_02",
+      "name": "新风系统运行强度状态反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "1": "工作强度_Low",
+          "2": "工作强度_Medium",
+          "3": "工作强度_High"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_AlarmCode_01",
+      "name": "新风系统故障代码反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "正常",
+          "1": "需更换滤网",
+          "2": "进风口气压异常",
+          "3": "出风口气压异常",
+          "4": "风机故障",
+          "5": "其他"
+        }
+      }
+    },
+    {
+      "identifier": "VMC_AlarmCode_02",
+      "name": "新风系统故障代码反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "正常",
+          "1": "需更换滤网",
+          "2": "进风口气压异常",
+          "3": "出风口气压异常",
+          "4": "风机故障",
+          "5": "其他"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerOprateControllSet_01",
+      "name": "加除湿一体机启停控制_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "关机",
+          "1": "启动",
+          "2": "休眠"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerOprateControllSet_02",
+      "name": "加除湿一体机启停控制_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "关机",
+          "1": "启动",
+          "2": "休眠"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerControlModelSet_01",
+      "name": "加除湿一体机控制模式设置_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "加湿",
+          "1": "除湿"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerControlModelSet_02",
+      "name": "加除湿一体机控制模式设置_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "加湿",
+          "1": "除湿"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerTemperatureSet_01",
+      "name": "加除湿一体机湿度设定_01",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "30",
+          "max": "80",
+          "unit": "%",
+          "unitName": "百分比",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerTemperatureSet_02",
+      "name": "加除湿一体机温度设定_02",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "30",
+          "max": "80",
+          "unit": "%",
+          "unitName": "百分比",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerRunningState_01",
+      "name": "加除湿一体机运行状态反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "停机",
+          "1": "运行中",
+          "2": "休眠",
+          "3": "离线",
+          "4": "故障"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerRunningState_02",
+      "name": "加除湿一体运行机状态反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "停机",
+          "1": "运行中",
+          "2": "休眠",
+          "3": "离线",
+          "4": "故障"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerRunningModelState_01",
+      "name": "加除湿一体机运行模式状态反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "加湿模式",
+          "1": "除湿模式"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerRunningModelState_02",
+      "name": "加除湿一体机运行模式状态反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "加湿模式",
+          "1": "除湿模式"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerCurrentHumidity_01",
+      "name": "加除湿一体机当前湿度反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "100",
+          "unit": "%",
+          "unitName": "百分比",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerCurrentHumidity_02",
+      "name": "加除湿一体机当前湿度反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "100",
+          "unit": "%",
+          "unitName": "百分比",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerAlarmCode_01",
+      "name": "加除湿一体机故障代码反馈_01",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "正常",
+          "1": "缺水",
+          "2": "化霜传感器故障",
+          "3": "低压",
+          "4": "过载"
+        }
+      }
+    },
+    {
+      "identifier": "HumidityControllerAlarmCode_02",
+      "name": "加除湿一体机故障代码反馈_02",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "正常",
+          "1": "缺水",
+          "2": "化霜传感器故障",
+          "3": "低压",
+          "4": "过载"
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "identifier": "post",
+      "name": "post",
+      "type": "info",
+      "required": true,
+      "desc": "属性上报",
+      "method": "thing.event.property.post",
+      "outputData": [
+        {
+          "identifier": "LightLuxValue_01",
+          "name": "光照度_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "65535",
+              "unit": "Lux",
+              "unitName": "照度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "LightLuxValue_02",
+          "name": "光照度_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "65535",
+              "unit": "Lux",
+              "unitName": "照度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "LightLuxValue_03",
+          "name": "光照度_03",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "65535",
+              "unit": "Lux",
+              "unitName": "照度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "LightLuxValue_04",
+          "name": "光照度_04",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "65535",
+              "unit": "Lux",
+              "unitName": "照度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_01",
+          "name": "照明开关设置_01",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_02",
+          "name": "照明开关设置_02",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_03",
+          "name": "照明开关设置_03",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_04",
+          "name": "照明开关设置_04",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightState_01",
+          "name": "照明控制器状态反馈_01",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "OFF",
+              "1": "ON"
+            }
+          }
+        },
+        {
+          "identifier": "LightState_02",
+          "name": "照明控制器状态反馈_02",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "OFF",
+              "1": "ON"
+            }
+          }
+        },
+        {
+          "identifier": "LightState_03",
+          "name": "照明控制器状态反馈_03",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "OFF",
+              "1": "ON"
+            }
+          }
+        },
+        {
+          "identifier": "LightState_04",
+          "name": "照明控制器状态反馈_04",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "OFF",
+              "1": "ON"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerOperateControlSet_01",
+          "name": "空调启停设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关闭",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerOperateControlSet_02",
+          "name": "空调启停设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关闭",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerControlModelSet_01",
+          "name": "空调工作模式设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "送风",
+              "3": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerControlModelSet_02",
+          "name": "空调工作模式设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "送风",
+              "3": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerTemperatureSet_01",
+          "name": "空调温度设定_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerTemperatureSet_02",
+          "name": "空调温度设定_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerWorkingGradeSet_01",
+          "name": "空调工作强度设定_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "1级",
+              "2": "2级",
+              "3": "3级",
+              "4": "4级",
+              "5": "5级"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerWorkingGradeSet_02",
+          "name": "空调工作强度设定_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "1级",
+              "2": "2级",
+              "3": "3级",
+              "4": "4级",
+              "5": "5级"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningState_01",
+          "name": "空调运行状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningState_02",
+          "name": "空调运行状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningModelState_01",
+          "name": "空调运行模式状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热模式",
+              "1": "制冷模式",
+              "2": "送风模式"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningModelState_02",
+          "name": "空调运行模式状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热模式",
+              "1": "制冷模式",
+              "2": "送风模式"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningGradeState_01",
+          "name": "空调运行强度反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "工作强度1级",
+              "2": "工作强度2级",
+              "3": "工作强度3级",
+              "4": "工作强度4级",
+              "5": "工作强度5级"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningGradeState_02",
+          "name": "空调运行强度反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "工作强度1级",
+              "2": "工作强度2级",
+              "3": "工作强度3级",
+              "4": "工作强度4级",
+              "5": "工作强度5级"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_OperationControlSet_01",
+          "name": "新风系统启动设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_OperationControlSet_02",
+          "name": "新风系统启动设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_ControlModelSet_01",
+          "name": "新风系统工做模式设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "过滤"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_ControlModelSet_02",
+          "name": "新风系统工作模式设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "过滤"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_TemperatureSet_01",
+          "name": "新风系统送风温度设定_01",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.1"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_TemperatureSet_02",
+          "name": "新风系统送风温度设定_02",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.1"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_WorkingGrade_01",
+          "name": "新风系统工作强度设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "Low",
+              "2": "Medium",
+              "3": "High"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_WorkingGrade_02",
+          "name": "新风系统工作强度设定_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "Low",
+              "2": "Medium",
+              "3": "High"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RunningState_01",
+          "name": "新风系统运行状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RunningState_02",
+          "name": "新风系统运行状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RuningModelState_01",
+          "name": "新风系统运行模式状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热模式",
+              "1": "制冷模式",
+              "2": "过滤模式"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RuningModelState_02",
+          "name": "新风系统运行模式状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热模式",
+              "1": "制冷模式",
+              "2": "过滤模式"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RuningGradelState_01",
+          "name": "新风系统运行强度状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "工作强度Low",
+              "2": "工作强度Medium",
+              "3": "工作强度High"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RuningGradelState_02",
+          "name": "新风系统运行强度状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "工作强度_Low",
+              "2": "工作强度_Medium",
+              "3": "工作强度_High"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_AlarmCode_01",
+          "name": "新风系统故障代码反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "正常",
+              "1": "需更换滤网",
+              "2": "进风口气压异常",
+              "3": "出风口气压异常",
+              "4": "风机故障",
+              "5": "其他"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_AlarmCode_02",
+          "name": "新风系统故障代码反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "正常",
+              "1": "需更换滤网",
+              "2": "进风口气压异常",
+              "3": "出风口气压异常",
+              "4": "风机故障",
+              "5": "其他"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerOprateControllSet_01",
+          "name": "加除湿一体机启停控制_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerOprateControllSet_02",
+          "name": "加除湿一体机启停控制_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerControlModelSet_01",
+          "name": "加除湿一体机控制模式设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿",
+              "1": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerControlModelSet_02",
+          "name": "加除湿一体机控制模式设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿",
+              "1": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerTemperatureSet_01",
+          "name": "加除湿一体机湿度设定_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "30",
+              "max": "80",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerTemperatureSet_02",
+          "name": "加除湿一体机温度设定_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "30",
+              "max": "80",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerRunningState_01",
+          "name": "加除湿一体机运行状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerRunningState_02",
+          "name": "加除湿一体运行机状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerRunningModelState_01",
+          "name": "加除湿一体机运行模式状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿模式",
+              "1": "除湿模式"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerRunningModelState_02",
+          "name": "加除湿一体机运行模式状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿模式",
+              "1": "除湿模式"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerCurrentHumidity_01",
+          "name": "加除湿一体机当前湿度反馈_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerCurrentHumidity_02",
+          "name": "加除湿一体机当前湿度反馈_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerAlarmCode_01",
+          "name": "加除湿一体机故障代码反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "正常",
+              "1": "缺水",
+              "2": "化霜传感器故障",
+              "3": "低压",
+              "4": "过载"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerAlarmCode_02",
+          "name": "加除湿一体机故障代码反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "正常",
+              "1": "缺水",
+              "2": "化霜传感器故障",
+              "3": "低压",
+              "4": "过载"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "identifier": "set",
+      "name": "set",
+      "required": true,
+      "callType": "async",
+      "desc": "属性设置",
+      "method": "thing.service.property.set",
+      "inputData": [
+        {
+          "identifier": "LightSwitchSet_01",
+          "name": "照明开关设置_01",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_02",
+          "name": "照明开关设置_02",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_03",
+          "name": "照明开关设置_03",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_04",
+          "name": "照明开关设置_04",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerOperateControlSet_01",
+          "name": "空调启停设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关闭",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerOperateControlSet_02",
+          "name": "空调启停设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关闭",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerControlModelSet_01",
+          "name": "空调工作模式设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "送风",
+              "3": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerControlModelSet_02",
+          "name": "空调工作模式设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "送风",
+              "3": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerTemperatureSet_01",
+          "name": "空调温度设定_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerTemperatureSet_02",
+          "name": "空调温度设定_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerWorkingGradeSet_01",
+          "name": "空调工作强度设定_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "1级",
+              "2": "2级",
+              "3": "3级",
+              "4": "4级",
+              "5": "5级"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerWorkingGradeSet_02",
+          "name": "空调工作强度设定_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "1级",
+              "2": "2级",
+              "3": "3级",
+              "4": "4级",
+              "5": "5级"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_OperationControlSet_01",
+          "name": "新风系统启动设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_OperationControlSet_02",
+          "name": "新风系统启动设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_ControlModelSet_01",
+          "name": "新风系统工做模式设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "过滤"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_ControlModelSet_02",
+          "name": "新风系统工作模式设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "过滤"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_TemperatureSet_01",
+          "name": "新风系统送风温度设定_01",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.1"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_TemperatureSet_02",
+          "name": "新风系统送风温度设定_02",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.1"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_WorkingGrade_01",
+          "name": "新风系统工作强度设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "Low",
+              "2": "Medium",
+              "3": "High"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_WorkingGrade_02",
+          "name": "新风系统工作强度设定_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "Low",
+              "2": "Medium",
+              "3": "High"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerOprateControllSet_01",
+          "name": "加除湿一体机启停控制_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerOprateControllSet_02",
+          "name": "加除湿一体机启停控制_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerControlModelSet_01",
+          "name": "加除湿一体机控制模式设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿",
+              "1": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerControlModelSet_02",
+          "name": "加除湿一体机控制模式设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿",
+              "1": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerTemperatureSet_01",
+          "name": "加除湿一体机湿度设定_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "30",
+              "max": "80",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerTemperatureSet_02",
+          "name": "加除湿一体机温度设定_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "30",
+              "max": "80",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        }
+      ],
+      "outputData": []
+    },
+    {
+      "identifier": "get",
+      "name": "get",
+      "required": true,
+      "callType": "async",
+      "desc": "属性获取",
+      "method": "thing.service.property.get",
+      "inputData": [
+        "LightLuxValue_01",
+        "LightLuxValue_02",
+        "LightLuxValue_03",
+        "LightLuxValue_04",
+        "LightSwitchSet_01",
+        "LightSwitchSet_02",
+        "LightSwitchSet_03",
+        "LightSwitchSet_04",
+        "LightState_01",
+        "LightState_02",
+        "LightState_03",
+        "LightState_04",
+        "AirConditionerOperateControlSet_01",
+        "AirConditionerOperateControlSet_02",
+        "AirConditionerControlModelSet_01",
+        "AirConditionerControlModelSet_02",
+        "AirConditionerTemperatureSet_01",
+        "AirConditionerTemperatureSet_02",
+        "AirConditionerWorkingGradeSet_01",
+        "AirConditionerWorkingGradeSet_02",
+        "AirConditionerRunningState_01",
+        "AirConditionerRunningState_02",
+        "AirConditionerRunningModelState_01",
+        "AirConditionerRunningModelState_02",
+        "AirConditionerRunningGradeState_01",
+        "AirConditionerRunningGradeState_02",
+        "VMC_OperationControlSet_01",
+        "VMC_OperationControlSet_02",
+        "VMC_ControlModelSet_01",
+        "VMC_ControlModelSet_02",
+        "VMC_TemperatureSet_01",
+        "VMC_TemperatureSet_02",
+        "VMC_WorkingGrade_01",
+        "VMC_WorkingGrade_02",
+        "VMC_RunningState_01",
+        "VMC_RunningState_02",
+        "VMC_RuningModelState_01",
+        "VMC_RuningModelState_02",
+        "VMC_RuningGradelState_01",
+        "VMC_RuningGradelState_02",
+        "VMC_AlarmCode_01",
+        "VMC_AlarmCode_02",
+        "HumidityControllerOprateControllSet_01",
+        "HumidityControllerOprateControllSet_02",
+        "HumidityControllerControlModelSet_01",
+        "HumidityControllerControlModelSet_02",
+        "HumidityControllerTemperatureSet_01",
+        "HumidityControllerTemperatureSet_02",
+        "HumidityControllerRunningState_01",
+        "HumidityControllerRunningState_02",
+        "HumidityControllerRunningModelState_01",
+        "HumidityControllerRunningModelState_02",
+        "HumidityControllerCurrentHumidity_01",
+        "HumidityControllerCurrentHumidity_02",
+        "HumidityControllerAlarmCode_01",
+        "HumidityControllerAlarmCode_02"
+      ],
+      "outputData": [
+        {
+          "identifier": "LightLuxValue_01",
+          "name": "光照度_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "65535",
+              "unit": "Lux",
+              "unitName": "照度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "LightLuxValue_02",
+          "name": "光照度_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "65535",
+              "unit": "Lux",
+              "unitName": "照度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "LightLuxValue_03",
+          "name": "光照度_03",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "65535",
+              "unit": "Lux",
+              "unitName": "照度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "LightLuxValue_04",
+          "name": "光照度_04",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "65535",
+              "unit": "Lux",
+              "unitName": "照度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_01",
+          "name": "照明开关设置_01",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_02",
+          "name": "照明开关设置_02",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_03",
+          "name": "照明开关设置_03",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightSwitchSet_04",
+          "name": "照明开关设置_04",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "关闭",
+              "1": "开启"
+            }
+          }
+        },
+        {
+          "identifier": "LightState_01",
+          "name": "照明控制器状态反馈_01",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "OFF",
+              "1": "ON"
+            }
+          }
+        },
+        {
+          "identifier": "LightState_02",
+          "name": "照明控制器状态反馈_02",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "OFF",
+              "1": "ON"
+            }
+          }
+        },
+        {
+          "identifier": "LightState_03",
+          "name": "照明控制器状态反馈_03",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "OFF",
+              "1": "ON"
+            }
+          }
+        },
+        {
+          "identifier": "LightState_04",
+          "name": "照明控制器状态反馈_04",
+          "dataType": {
+            "type": "bool",
+            "specs": {
+              "0": "OFF",
+              "1": "ON"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerOperateControlSet_01",
+          "name": "空调启停设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关闭",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerOperateControlSet_02",
+          "name": "空调启停设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关闭",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerControlModelSet_01",
+          "name": "空调工作模式设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "送风",
+              "3": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerControlModelSet_02",
+          "name": "空调工作模式设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "送风",
+              "3": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerTemperatureSet_01",
+          "name": "空调温度设定_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerTemperatureSet_02",
+          "name": "空调温度设定_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerWorkingGradeSet_01",
+          "name": "空调工作强度设定_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "1级",
+              "2": "2级",
+              "3": "3级",
+              "4": "4级",
+              "5": "5级"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerWorkingGradeSet_02",
+          "name": "空调工作强度设定_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "1级",
+              "2": "2级",
+              "3": "3级",
+              "4": "4级",
+              "5": "5级"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningState_01",
+          "name": "空调运行状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningState_02",
+          "name": "空调运行状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningModelState_01",
+          "name": "空调运行模式状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热模式",
+              "1": "制冷模式",
+              "2": "送风模式"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningModelState_02",
+          "name": "空调运行模式状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热模式",
+              "1": "制冷模式",
+              "2": "送风模式"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningGradeState_01",
+          "name": "空调运行强度反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "工作强度1级",
+              "2": "工作强度2级",
+              "3": "工作强度3级",
+              "4": "工作强度4级",
+              "5": "工作强度5级"
+            }
+          }
+        },
+        {
+          "identifier": "AirConditionerRunningGradeState_02",
+          "name": "空调运行强度反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "工作强度1级",
+              "2": "工作强度2级",
+              "3": "工作强度3级",
+              "4": "工作强度4级",
+              "5": "工作强度5级"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_OperationControlSet_01",
+          "name": "新风系统启动设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_OperationControlSet_02",
+          "name": "新风系统启动设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_ControlModelSet_01",
+          "name": "新风系统工做模式设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "过滤"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_ControlModelSet_02",
+          "name": "新风系统工作模式设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热",
+              "1": "制冷",
+              "2": "过滤"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_TemperatureSet_01",
+          "name": "新风系统送风温度设定_01",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.1"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_TemperatureSet_02",
+          "name": "新风系统送风温度设定_02",
+          "dataType": {
+            "type": "float",
+            "specs": {
+              "min": "18",
+              "max": "30",
+              "unit": "°C",
+              "unitName": "摄氏度",
+              "step": "0.1"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_WorkingGrade_01",
+          "name": "新风系统工作强度设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "Low",
+              "2": "Medium",
+              "3": "High"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_WorkingGrade_02",
+          "name": "新风系统工作强度设定_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "Low",
+              "2": "Medium",
+              "3": "High"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RunningState_01",
+          "name": "新风系统运行状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RunningState_02",
+          "name": "新风系统运行状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RuningModelState_01",
+          "name": "新风系统运行模式状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热模式",
+              "1": "制冷模式",
+              "2": "过滤模式"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RuningModelState_02",
+          "name": "新风系统运行模式状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "制热模式",
+              "1": "制冷模式",
+              "2": "过滤模式"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RuningGradelState_01",
+          "name": "新风系统运行强度状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "工作强度Low",
+              "2": "工作强度Medium",
+              "3": "工作强度High"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_RuningGradelState_02",
+          "name": "新风系统运行强度状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "1": "工作强度_Low",
+              "2": "工作强度_Medium",
+              "3": "工作强度_High"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_AlarmCode_01",
+          "name": "新风系统故障代码反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "正常",
+              "1": "需更换滤网",
+              "2": "进风口气压异常",
+              "3": "出风口气压异常",
+              "4": "风机故障",
+              "5": "其他"
+            }
+          }
+        },
+        {
+          "identifier": "VMC_AlarmCode_02",
+          "name": "新风系统故障代码反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "正常",
+              "1": "需更换滤网",
+              "2": "进风口气压异常",
+              "3": "出风口气压异常",
+              "4": "风机故障",
+              "5": "其他"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerOprateControllSet_01",
+          "name": "加除湿一体机启停控制_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerOprateControllSet_02",
+          "name": "加除湿一体机启停控制_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "关机",
+              "1": "启动",
+              "2": "休眠"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerControlModelSet_01",
+          "name": "加除湿一体机控制模式设置_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿",
+              "1": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerControlModelSet_02",
+          "name": "加除湿一体机控制模式设置_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿",
+              "1": "除湿"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerTemperatureSet_01",
+          "name": "加除湿一体机湿度设定_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "30",
+              "max": "80",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerTemperatureSet_02",
+          "name": "加除湿一体机温度设定_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "30",
+              "max": "80",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerRunningState_01",
+          "name": "加除湿一体机运行状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerRunningState_02",
+          "name": "加除湿一体运行机状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "停机",
+              "1": "运行中",
+              "2": "休眠",
+              "3": "离线",
+              "4": "故障"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerRunningModelState_01",
+          "name": "加除湿一体机运行模式状态反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿模式",
+              "1": "除湿模式"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerRunningModelState_02",
+          "name": "加除湿一体机运行模式状态反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "加湿模式",
+              "1": "除湿模式"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerCurrentHumidity_01",
+          "name": "加除湿一体机当前湿度反馈_01",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerCurrentHumidity_02",
+          "name": "加除湿一体机当前湿度反馈_02",
+          "dataType": {
+            "type": "int",
+            "specs": {
+              "min": "0",
+              "max": "100",
+              "unit": "%",
+              "unitName": "百分比",
+              "step": "1"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerAlarmCode_01",
+          "name": "加除湿一体机故障代码反馈_01",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "正常",
+              "1": "缺水",
+              "2": "化霜传感器故障",
+              "3": "低压",
+              "4": "过载"
+            }
+          }
+        },
+        {
+          "identifier": "HumidityControllerAlarmCode_02",
+          "name": "加除湿一体机故障代码反馈_02",
+          "dataType": {
+            "type": "enum",
+            "specs": {
+              "0": "正常",
+              "1": "缺水",
+              "2": "化霜传感器故障",
+              "3": "低压",
+              "4": "过载"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

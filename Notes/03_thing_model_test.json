@@ -1,0 +1,380 @@
+{
+  "Sensors": [
+    {
+      "identifier": "CableTemperature_A",
+      "name": "线缆温度_A相",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "float",
+        "specs": {
+          "min": "-10",
+          "max": "60",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "0.1"
+        }
+      }
+    },
+    {
+      "identifier": "CableTemperature_B",
+      "name": "线缆温度_B相",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "float",
+        "specs": {
+          "min": "-10",
+          "max": "60",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "0.1"
+        }
+      }
+    },
+    {
+      "identifier": "CableTemperature_C",
+      "name": "线缆温度_C相",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "float",
+        "specs": {
+          "min": "-10",
+          "max": "60",
+          "unit": "°C",
+          "unitName": "摄氏度",
+          "step": "0.1"
+        }
+      }
+    },
+    {
+      "identifier": "SmokeSensorState",
+      "name": "烟雾传感器检测状态",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "正常",
+          "1": "检测到烟雾"
+        }
+      }
+    },
+    {
+      "identifier": "SF6Content",
+      "name": "六氟化硫浓度",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "int",
+        "specs": {
+          "min": "0",
+          "max": "500",
+          "unit": "ppm",
+          "unitName": "百万分率",
+          "step": "1"
+        }
+      }
+    },
+    {
+      "identifier": "O2Content",
+      "name": "氧气浓度",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "float",
+        "specs": {
+          "min": "0",
+          "max": "30",
+          "unit": "%",
+          "unitName": "百分比",
+          "step": "0.1"
+        }
+      }
+    },
+    {
+      "identifier": "WaterSensorState",
+      "name": "水浸检测状态",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "正常",
+          "1": "有水浸入"
+        }
+      }
+    }
+  ],
+  "Alarm": [
+    {
+      "identifier": "AlarmControl",
+      "name": "声光报警器控制",
+      "accessMode": "rw",
+      "required": false,
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "0": "关",
+          "1": "开"
+        }
+      }
+    },
+    {
+      "identifier": "AlarmState",
+      "name": "声光报警器状态",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "正常",
+          "1": "报警"
+        }
+      }
+    }
+  ],
+  "ElectricEnergyMeter":[
+    {
+      "identifier": "Ia",
+      "name": "A相电流",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "10000000000",
+          "unit": "A",
+          "unitName": "安培",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "Ib",
+      "name": "B相电流",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "10000000000",
+          "unit": "A",
+          "unitName": "安培",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "Ic",
+      "name": "C相电流",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "10000000000",
+          "unit": "A",
+          "unitName": "安培",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "nUa",
+      "name": "A相电压",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "1000",
+          "unit": "V",
+          "unitName": "伏特",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "nUb",
+      "name": "B相电压",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "1000",
+          "unit": "V",
+          "unitName": "伏特",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "nUc",
+      "name": "C相电压",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "float",
+        "specs": {
+          "min": "0",
+          "max": "1000",
+          "unit": "V",
+          "unitName": "伏特",
+          "step": "0.1"
+        }
+      }
+    },
+    {
+      "identifier": "electric_fra",
+      "name": "A相有功功率",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "10000000",
+          "unit": "kW",
+          "unitName": "千瓦特",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "electric_frb",
+      "name": "B相有功功率",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "1000000",
+          "unit": "kW",
+          "unitName": "千瓦特",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "electric_frc",
+      "name": "C相有功功率",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "100000000",
+          "unit": "kW",
+          "unitName": "千瓦特",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "electric_fr",
+      "name": "频率",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "80",
+          "unit": "Hz",
+          "unitName": "赫兹",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "ElectricEnergyMeterState",
+      "name": "三相智能电能表状态反馈",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "正常",
+          "1": "故障",
+          "2": "离线"
+        }
+      }
+    },
+    {
+      "identifier": "TotalActiveEnergy",
+      "name": "总有功电量",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "99999",
+          "unit": "kW·h",
+          "unitName": "千瓦时",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "PositiveActiveEnergy",
+      "name": "正向有功电量",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "99999",
+          "unit": "kW·h",
+          "unitName": "千瓦时",
+          "step": "0.01"
+        }
+      }
+    },
+    {
+      "identifier": "ReverseActiveEnergy",
+      "name": "反向有功电量",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "double",
+        "specs": {
+          "min": "0",
+          "max": "99999",
+          "unit": "kW·h",
+          "unitName": "千瓦时",
+          "step": "0.01"
+        }
+      }
+    }
+  ],
+  "ElectricalFireMonitoringSystem":[
+    {
+      "identifier": "ElectricalFireMonitoringSystemState",
+      "name": "电气火灾监控探测器状态反馈",
+      "accessMode": "r",
+      "required": false,
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "运行中",
+          "1": "报警",
+          "2": "故障",
+          "3": "离线",
+          "4": "脱扣"
+        }
+      }
+    }
+  ]
+}
